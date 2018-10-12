@@ -26,6 +26,12 @@ namespace Assignment_MVC_3.Models
 
         //Products
         //many-to-many
-        public virtual ICollection<Product> Products { get; set; }
+        public ICollection<Product> Products { get; set; }
+
+        //Employee mak
+        public virtual Employee EmployeeMakeSale { get; set; }
+
+        //Employee mak
+        public virtual Employee EmployeeApprovedSale { get; set; }
     }
 }
