@@ -17,7 +17,7 @@ namespace Assignment_MVC_3.Models
 
         public int Id { get; set; }
         public string Name { get; set; }
-        public string RegistrationNumber { get; set; }
+        public int RegistrationNumber { get; set; }
 
         //relations
         [InverseProperty("EmployeeMakeSale")]
