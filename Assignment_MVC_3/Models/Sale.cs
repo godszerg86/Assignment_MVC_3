@@ -28,10 +28,12 @@ namespace Assignment_MVC_3.Models
         //many-to-many
         public ICollection<Product> Products { get; set; }
 
-        //Employee mak
+        //Employee made sale
+        public int EmployeeMakeSaleId { get; set; }
         public virtual Employee EmployeeMakeSale { get; set; }
 
-        //Employee mak
+        //Employee aproved sale
+        public int? EmployeeApprovedSaleId { get; set; }
         public virtual Employee EmployeeApprovedSale { get; set; }
     }
 }
